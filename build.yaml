@@ -1,5 +1,7 @@
 board: [ "nice_nano_v2" ]
+shield: [ "custom_16x6" ]
 include:
   - board: nice_nano_v2
+    shield: custom_16x6
     artifact-name: custom_16x6_keyboard
-    cmake-args: -DDTC_OVERLAY_FILE=/tmp/zmk-config/config/custom_16x6.overlay
+    cmake-args: -DEXTRA_BOARD_ROOT=/tmp/zmk-config/boards
