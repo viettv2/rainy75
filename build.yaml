@@ -4,3 +4,4 @@ include:
   - board: nice_nano_v2
     shield: custom_16x6
     artifact-name: custom_16x6_keyboard
+    cmake-args: -DEXTRA_BOARD_ROOT=/tmp/zmk-config/boards
