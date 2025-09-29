@@ -1,0 +1,13 @@
+id: custom_single_keyboard
+name: Custom Single Keyboard
+type: shield
+url: https://github.com/zmkfirmware/zmk
+description: |
+  A custom single keyboard configuration for nRF52840 (nice!nano)
+  with 4x12 matrix layout.
+  
+  Pin assignments for nRF52840:
+  - Rows: P0.02, P0.03, P0.04, P0.05
+  - Columns: P0.06, P0.07, P0.08, P0.09, P0.10, P0.11, P0.12, P0.13, P0.14, P0.15, P0.16, P0.17
+  
+  This is a demo configuration for a 48-key single keyboard.
