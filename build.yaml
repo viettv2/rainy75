@@ -1,6 +1,6 @@
 board: [ "nice_nano_v2" ]
-shield: [ "boardsource3x4" ]
+shield: [ "custom_16x6" ]
 include:
   - board: nice_nano_v2
-    shield: boardsource3x4
-    artifact-name: single_keyboard_demo
+    shield: custom_16x6
+    artifact-name: custom_16x6_keyboard
